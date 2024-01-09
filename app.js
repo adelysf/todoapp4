@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const app = express();
 
 //connecting to the database
-mongoose.connect("mongodb://mongodb:27017/taskdb");
+mongoose.connect("mongodb://mongodb-service:27017/taskdb");
 
 //gather data from forms
 app.use(express.urlencoded({ extended: true }));

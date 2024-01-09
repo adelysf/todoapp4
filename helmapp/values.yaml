@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: adelysf/myimage
+
+service:
+  type: NodePort
+  port: 3000
+
+dbservice:
+  port: 27017
